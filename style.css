@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.background {
+  min-width: 375px;
+  height: 812px;
+  background: linear-gradient(191.34deg, #17181a -4.95%, #17181a 103.74%);
+  border-radius: 40px;
+  box-shadow: 70px 30px 100px rgba(0, 107, 181, 0.63);
+}
+
+.calculator-container {
+  max-width: 375px;
+  margin: 34px;
+}
+
+.calculate-number-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+
+.calculator-buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-numbers p {
+  color: #818181;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.big-numbers {
+  color: #fff;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+button {
+  width: 62px;
+  height: 60px;
+  background: #303136;
+  border-radius: 16px;
+  border: 0;
+}
+
+.hueta-buttons {
+  display: flex;
+  gap: 17px;
+  margin-left: 9px;
+  margin-bottom: 16px;
+}
+
+.hueta {
+  margin: 0 auto;
+  width: 62px;
+  height: 40px;
+  border-radius: 24px;
+  color: #29a8ff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.poeben-buttons {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 22px;
+  margin-left: 9px;
+}
+
+.poeben {
+  font-size: 24px;
+}
+
+.blue {
+  color: #339dff;
+  background-color: #005db2;
+  font-size: 48px;
+}
+
+.gray {
+  color: #a5a5a5;
+  background: #616161;
+}
+
+.delete-btn {
+  margin-top: 5px;
+}
+
+.govno-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  max-width: 235px;
+  gap: 20px 17px;
+}
+
+.govno {
+  margin: 0;
+  justify-self: center;
+  color: #29a8ff;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.pensil-buttons {
+  margin-bottom: 20px;
+}
+
+.pensil1 {
+  width: 144px;
+  height: 60px;
+  font-size: 32px;
+  font-weight: 500;
+  color: #29a8ff;
+}
+
+.pensil {
+  font-size: 32px;
+  font-weight: 500;
+  color: #29a8ff;
+}
+
+.zalupa-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.gagatun-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.gagatun2 {
+  width: 62px;
+  height: 96px;
+  margin-top: 20px;
+}
+
+.gagatun3 {
+  margin-top: 25px;
+  width: 62px;
+  height: 96px;
+  background: #1991ff;
+  color: #b2daff;
+  font-size: 32px;
+  font-weight: 500;
+}
